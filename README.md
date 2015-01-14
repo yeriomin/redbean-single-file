@@ -3,7 +3,7 @@ RedBeanPHP 4 Single File
 
 In this package there is only one file - rb.php. The one you would get by clicking [Download RedBeanPHP](http://redbeanphp.com/downloadredbean.php) on the redbean download page.
 
-Unfortunately the composer workaround provided there does not allow creating composer packades with redbean dependency, it only allows adding redbean to your project locally.
+Unfortunately the [composer workaround](https://github.com/necenzurat/redbeanphp-composer) provided there does not allow creating composer packages with redbean dependency, it only allows adding redbean to your project locally (see [composer FAQ](https://getcomposer.org/doc/faqs/why-can't-composer-load-repositories-recursively.md) for details).
 
 Also, the package gabordemooij/redbean created from [the redbean github repo](https://github.com/gabordemooij/redbean) only provides a way to get the source and does not let you just require it and use. For example after `$ composer require gabordemooij/redbean` You will not be able to run the following file:
 
